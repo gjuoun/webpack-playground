@@ -1,5 +1,7 @@
 import "./style.css"
 import "./style2.css"
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 // const str = css.toString()
 
 console.log("my ts");
