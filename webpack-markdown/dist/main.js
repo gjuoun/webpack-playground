@@ -1,0 +1,1 @@
+(()=>{"use strict";console.log('<p>hello</p> <h2 id="ni-hao-ma">ni hao ma</h2> ')})();
