@@ -2,7 +2,7 @@ const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  entry: path.join(__dirname, 'src', 'index.tsx'),
+  entry: path.join(__dirname, 'src', 'index.js'),
   output: {
     path: path.resolve(__dirname, 'dist')
   },
@@ -21,6 +21,7 @@ module.exports = {
           }
         }
       },
+      // ts-loader reads the tsconfig.json file and compiles the TypeScript code to JavaScript
       {
         test: /\.tsx?$/, 
         loader: "ts-loader"
