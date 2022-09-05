@@ -14,7 +14,7 @@ module.exports = {
     clean: true,
   },
   // very important for node.js bundle
-  target: "node",
+  target: 'node',
   resolve: {
     extensions: [".js"],
   },
@@ -28,7 +28,7 @@ module.exports = {
           options: {
             presets: ["@babel/preset-env"],
             targets: {
-              node: "16.0",
+              node: "12.0",
             },
           },
         },

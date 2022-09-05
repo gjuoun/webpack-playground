@@ -3,9 +3,8 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  const a = [1, 2].at(0);
-
-  res.send(a);
+  
+  res.send("hello world");
 });
 
 app.listen(3000, () => {
